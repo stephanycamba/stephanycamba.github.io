@@ -18,7 +18,7 @@
       font-family: newFont2;
       src: url(RubikFont.ttf);
     }
-    @media screen and (max-width:460px){
+    /* @media screen and (max-width:460px){
       body{
         width:463px;
        }
@@ -26,7 +26,7 @@
        .modal-container.show{  width:463px;
       }
      
-    }
+    } */
     @media screen and (min-width:551px){
    
    
