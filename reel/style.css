@@ -143,11 +143,8 @@
         
       }
       .modal{
-      
-        background-color: rgb(253, 253, 252);
-       
-        /* padding-right:1.4em;
-    padding-top:1.7em; */
+    
+        background-color: rgba(255, 255, 255, 0.815);
         height: 100%;
        width: 100%;
         text-align: center;
@@ -158,7 +155,7 @@
       a{
         line-height: 2.6em;
        width:100%;
-        color:rgb(168, 154, 145);
+        color:rgb(31, 28, 26);
         font-size: 1.7em;
         font-family: newFont2;
         position: relative;

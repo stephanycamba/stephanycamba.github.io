@@ -1,8 +1,4 @@
-.copyright{
-    position: fixed;
-    left:1em;
-    bottom:0.5em;
-    }
+
   
       .navbar {
     z-index:8;
@@ -157,4 +153,12 @@ h1{
         width:90%;
         margin: 2.5% 5%;
     }
+    .navigation{
+      width:90%;
+    }
+.salad{
+  margin-right:32em;
+}
  }
+ 
+

@@ -306,7 +306,7 @@ main{  padding-right:30%;}
     }
   
     .modal_container{
-      margin-top:1em;
+
       display: none;
       align-items: center;
       justify-content: center;
@@ -315,7 +315,7 @@ main{  padding-right:30%;}
       left: 0;
       height: 100vh;
       width:100vw;
-     
+      
     }
     .modal{
     
