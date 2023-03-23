@@ -18,15 +18,15 @@
       font-family: newFont2;
       src: url(RubikFont.ttf);
     }
-    /* @media screen and (max-width:460px){
-      body{
+    @media screen and (max-width:460px){
+      /* body{
         width:463px;
-       }
+       } */
    
-       .modal-container.show{  width:463px;
-      }
+       /* .modal-container.show{  width:463px;
+      } */
      
-    } */
+    }
     @media screen and (min-width:551px){
    
    
@@ -217,7 +217,7 @@ main{  padding-right:30%;}
       }
       .words{
       
-       /* padding-left:10%; */
+       padding-left:10%;
        /* float: left; */
        
         width:85%;  
@@ -226,8 +226,8 @@ main{  padding-right:30%;}
        font-family: newFont2;
         /* background-color: rgb(240, 21, 58); */
       }
-        .me{
-          width:50%;
+        .me{ margin-left:2em; 
+          width:57%;
           max-width: 100%;
           height: auto;
         
@@ -236,10 +236,10 @@ main{  padding-right:30%;}
          
         }
         .row{  
-          margin-left:4em; 
+         
            /* margin-top:1em; */
           /* text-align: center; */
-         background: rgb(240, 225, 21);
+         background-color: rgb(240, 225, 21);
         }
    
       .column { 
