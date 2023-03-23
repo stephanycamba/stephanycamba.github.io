@@ -219,12 +219,12 @@ main{  padding-right:30%;}
       
        padding-left:10%;
        /* float: left; */
-       
+       height: auto;
         width:85%;  
-        font-size: 1.3em;
-       /* height: auto; */
+        font-size: 1em;
+       padding-bottom:6em;
        font-family: newFont2;
-        /* background-color: rgb(240, 21, 58); */
+        background-color: rgb(240, 21, 58);
       }
         .me{ margin-left:2em; 
           width:57%;
@@ -247,9 +247,7 @@ main{  padding-right:30%;}
       }
       .layout{
         margin-top:0em;}
-      footer{
-        display: none;
-      }
+   
       .content{
         display: none;
       }
@@ -270,12 +268,12 @@ main{  padding-right:30%;}
     }
 
     .content{    position: relative;
-  
+
      float: left;
       overflow: hidden;
    
         width:100px;
-        height: 100px;
+        height: 1500px;
         margin: 0 5%;
     }
     .container{  
@@ -342,7 +340,7 @@ main{  padding-right:30%;}
     .modal-container{
       position: relative;
       overflow: auto;
-   
+    
      
       z-index: 3;
    
