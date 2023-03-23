@@ -224,7 +224,7 @@ main{  padding-right:30%;}
         font-size: 1em;
        padding-bottom:6em;
        font-family: newFont2;
-        background-color: rgb(240, 21, 58);
+        /* background-color: rgb(240, 21, 58); */
       }
         .me{ margin-left:2em; 
           width:57%;
