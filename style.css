@@ -38,10 +38,10 @@
     }
     .navigation a{ position: relative;
         top: 0.7em;
-        color: rgb(109, 187, 211);
+        color: rgb(66, 151, 177);
         position: relative;
         vertical-align: top;
-        font-size: 0.95em;
+        font-size: 1em;
        line-height: 2em;
         text-decoration: none;
     }
@@ -78,9 +78,10 @@ font-family: newFont2;
     cursor: pointer;
   }
   img{
+   
     width: 100%;
-  width:380px;
-    height: 380px;
+  width:317px;
+    height: 317px;
   }
   .content .text-overlay{
     background: linear-gradient(-50deg, #7670f1bb, #06609cc4 );
