@@ -21,7 +21,7 @@
 
 
 
-        .caption-container {
+        .caption-container, .caption-container2 {
           text-align: center;
           background-color: #222222;
           padding: 4px 16px;
@@ -90,16 +90,16 @@
         /* Six columns side by side */
         .coolumn {
           float: left;
-          width: 8%;
+          width: 8.3%;
         }
         
         /* Add a transparency effect for thumnbail images */
-        .demo, .demo3{
+        .demo, .demo2{
           opacity: 0.6;
         }
         
         .active,
-        .demo:hover, .demo3:hover {
+        .demo:hover, .demo2:hover {
           opacity: 1;
         }
         .WTgallerycontainer, .WTprocesscontainer{
