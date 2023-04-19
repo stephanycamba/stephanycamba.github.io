@@ -36,6 +36,7 @@
         }
         .theSlides, .theSlides2, .theSlides3, .theSlides4{
           display: none;
+        
         }
 
         .cursor {
@@ -89,7 +90,7 @@
         /* Six columns side by side */
         .coolumn {
           float: left;
-          width: 12.5%;
+          width: 8%;
         }
         
         /* Add a transparency effect for thumnbail images */
@@ -101,15 +102,12 @@
         .demo:hover, .demo3:hover {
           opacity: 1;
         }
-        .WTgallerycontainer, .limgallerycontainer{
+        .WTgallerycontainer, .WTprocesscontainer{
           max-width: 100%;
           position: relative;
         
         }
-        .WTprocesscontainer, .Limprocesscontainer{
-          max-width: 100%;
-          position: relative;    
-        }
+       
 
 
 
