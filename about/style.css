@@ -20,17 +20,7 @@
     }
 
 
-    .linksIcons{ 
-      color: rgb(80, 59, 32);
-      padding:0em 0.4em;
-      font-size: 2em;
-      }
-  .links{
-  /* right:1em; */
-  /* bottom:0.5em; */
-  position: relative;
-  text-align: center;
-}
+
     @media screen and (max-width:460px){
       /* body{
         width:463px;
@@ -41,7 +31,17 @@
      
     }
     @media screen and (min-width:551px){
-   
+      .linksIcons{ 
+        color: rgb(80, 59, 32);
+        padding:0em 0.4em;
+        font-size: 2em;
+        }
+    .links{
+    /* right:1em; */
+    /* bottom:0.5em; */
+    position: relative;
+    text-align: center;
+  }
 
 
 
@@ -226,6 +226,12 @@ main{  padding-right:30%;}
 
 }
     @media only screen and (max-width: 550px){
+      .linksIcons{ 
+      display: none;
+       
+       
+        }
+
       .h11{
       /* width:75%;  */
       /* background-color: rgb(198, 181, 230); */
