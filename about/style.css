@@ -18,6 +18,18 @@
       font-family: newFont2;
       src: url(RubikFont.ttf);
     }
+
+
+    .linksIcons{ 
+      color: rgb(80, 59, 32);
+      padding:0em 0.4em;
+      font-size: 2em;
+      }
+  /* .links{
+  right:1em;
+  bottom:0.5em;
+  position: fixed;
+} */
     @media screen and (max-width:460px){
       /* body{
         width:463px;
@@ -28,16 +40,7 @@
      
     }
     @media screen and (min-width:551px){
-      .linksIcons{ 
-        color: rgb(80, 59, 32);
-        padding:0em 0.4em;
-        font-size: 2em;
-        }
-    .links{
-    right:1em;
-    bottom:0.5em;
-    position: fixed;
-  }
+   
 
 
 
