@@ -28,8 +28,25 @@
      
     }
     @media screen and (min-width:551px){
-   
-   
+      .linksIcons{ 
+        color: rgb(80, 59, 32);
+        padding:0em 0.4em;
+        font-size: 2em;
+        }
+    .links{
+    right:1em;
+    bottom:0.5em;
+    position: fixed;
+  }
+
+
+
+
+
+
+
+
+
       .h11{
         /* background-color: rgb(198, 181, 230); */
     float: left;width:420px;

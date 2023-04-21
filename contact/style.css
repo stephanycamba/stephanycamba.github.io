@@ -183,15 +183,15 @@ button{
 
 
 
-   .links{
+   /* .links{
     right:1em;
     bottom:0.5em;
     position: fixed;
-  }
+  } */
   .linksIcons{ 
     color: rgb(80, 59, 32);
     padding:0em 0.4em;
-    font-size: 1.5em;
+    font-size: 2em;
     }
     h2{
       /* background: rgba(255, 192, 203, 0.76); */
