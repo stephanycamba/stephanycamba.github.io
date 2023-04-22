@@ -216,20 +216,23 @@ button{
         width:220px;
         margin-right:2em;
      }
-      .navigation{
-        margin: 40px;
-        overflow:hidden;
-        word-spacing:1.7em;
-        font-family:newFont2;
-      
-    }
+     .navigation{
+      margin-top:  40px;
+      margin-bottom:  40px;
+      margin-left:  40px;
+      overflow:hidden;
+      word-spacing:1em;
+      font-family:newFont2;
+    
+  }
   .navigation a{ position: relative;
     top: 0.7em;
-    color: rgb(109, 187, 211);
+    color: rgb(18, 67, 82);
     position: relative;
     vertical-align: top;
     font-size: 0.95em;
    line-height: 2em;
+   
     text-decoration: none;
 }
 .navigation a:hover{
