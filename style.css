@@ -1,9 +1,12 @@
-
-  
-      .navbar {
+.copyright{
+  position: fixed;
+  left:1em;
+  bottom:0.5em;
+  }
+  .navbar {
     z-index:8;
     overflow: hidden;
-    background-color: #b86b6b;
+    background-color: #fffefe;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -23,33 +26,37 @@
         
       }
       
-      .salad{
-        /* background-color: rgb(169, 134, 235); */
-        max-width: 100%;
-        height: auto;
-        width:220px;
-        margin-right:2em;
-     }
-      .navigation{
-        margin: 40px;
-        overflow:hidden;
-        word-spacing:1.7em;
-        font-family:newFont2;
-      
-    }
-    .navigation a{ position: relative;
-        top: 0.7em;
-        color: rgb(66, 151, 177);
-        position: relative;
-        vertical-align: top;
-        font-size: 1em;
-       line-height: 2em;
-        text-decoration: none;
-    }
-    .navigation a:hover{
-        color: rgb(8, 135, 151);
-        
-    }
+
+     .salad{
+      /* background-color: rgb(169, 134, 235); */
+      max-width: 100%;
+      height: auto;
+      width:220px;
+      margin-right:2em;
+   }
+    .navigation{
+      margin-top:  40px;
+      margin-bottom:  40px;
+      margin-left:  40px;
+      overflow:hidden;
+      word-spacing:1em;
+      font-family:newFont2;
+    
+  }
+  .navigation a{ position: relative;
+    top: 0.7em;
+    color: rgb(18, 67, 82);
+    position: relative;
+    vertical-align: top;
+    font-size: 0.95em;
+   line-height: 2em;
+   
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: rgb(8, 135, 151);
+    
+}
 
   *, *:before, *:after {
     

@@ -11,29 +11,31 @@ html, body{
   width:220px;
   margin-right:2em;
 }
-.navigation{
-  margin: 40px;
-  overflow:hidden;
-  word-spacing:1.7em;
-  font-family:newFont2;
-
-}
 .navbar {
-  z-index:8;
+  /* z-index:8; */
   overflow: hidden;
   background-color: #fffefe;
- 
+
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
-.navigation a{ 
-  top: 0.7em;
-  color: rgb(109, 187, 211);
-  position: relative;
-  vertical-align: top;
-  font-size: 0.95em;
- line-height: 2em;
-  text-decoration: none;
+.navigation{
+  margin-top:  40px;
+  margin-left:  40px;
+  overflow:hidden;
+  word-spacing:1em;
+  font-family:newFont2;
+
+}
+.navigation a{ position: relative;
+top: 0.7em;
+color: rgb(109, 187, 211);
+position: relative;
+vertical-align: top;
+font-size: 0.95em;
+line-height: 2em;
+
+text-decoration: none;
 }
 .navigation a:hover{
   color: rgb(8, 135, 151);
@@ -42,15 +44,17 @@ html, body{
 @media screen and (max-width: 480px){
 
 .container{
+  margin-bottom:20%;
     position: relative;
     overflow: auto;
-    margin: 0.9em;
-    background-color: rgba(203, 203, 204, 0);
+    /* margin: 0.1em; */
+    /* background-color: rgb(44, 44, 182); */
 }
 button{
     position: relative;
     float: right;
     margin-top:0.4em;
+    margin-right:10px;
     padding-top: 0.24em;
     font-size: 1.6em;
     border-radius: 6px;
@@ -90,10 +94,10 @@ button{
   }
   .modal{
   
-    background-color: rgb(253, 253, 252);
+    background-color: rgba(253, 253, 252, 0.925);
    
-    padding-right:1.4em;
-padding-top:1.7em;
+    margin-top:15px;
+    margin-right:8px;
     height: 100%;
    width: 100%;
     text-align: center;
@@ -153,10 +157,10 @@ padding-top:1.7em;
   } 
   .column {
     
-    margin-top:30px;
+    margin-top:20px;
     flex: 50%;
    max-width: 50%;
-    padding: 0px 8px;
+    padding: 0px 4px;
   }
   .column img:hover {
     opacity: 0.6;
@@ -168,7 +172,7 @@ padding-top:1.7em;
   .column img {
     vertical-align: middle;
    width:100%;
-   margin-top:16px;
+   margin-top:8px;
    
     box-shadow: 1px 1px 5px 1px rgba(43, 44, 63, 0.699);
     border-color:rgba(231, 231, 231, 0.76) ;
@@ -226,6 +230,11 @@ padding-top:1.7em;
 
 @media screen and (min-width:481px){
   
+  .container{
+    background-color: aqua;
+    width: 100%;
+  }
+
   .modal-container{
     display: none;
 }
@@ -241,26 +250,9 @@ button{
     src: url(RubikFont.ttf);
   }
 
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
+  
    
-    margin:0 100px;
-    color: rgba(255, 255, 255, 0.726);
-    font-size: 50px;
-    /* background-color: black; */
-    transform: scale(0.8, 1.5);
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-   
-  }
+  
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -288,6 +280,7 @@ button{
  
   /* Modal Content (Image) */
   .modal-content {
+   
     margin: auto;
    
    
@@ -303,13 +296,13 @@ button{
   
   }
    @media screen and (max-width:1500px){
-    .modal-content {max-width:35%;
+    .modal-content {max-width:40%;
    }
   }
 
 /* The Modal (background) */
 .modall {
- 
+  
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   /* z-index: 1; Sit on top */
