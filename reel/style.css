@@ -1,43 +1,93 @@
+html, body{
+  background-color: rgb(218, 214, 211);
+  
+  }
 .copyright{
     position: fixed;
     left:1em;
     bottom:0.5em;
     }
-    .navbar {
-      z-index:8;
-      overflow: hidden;
-      background-color: #fffefe;
-      position: fixed; /* Set the navbar to fixed position */
-      top: 0; /* Position the navbar at the top of the page */
-      width: 100%; /* Full width */
-    }
+
     @font-face {
         font-family: newFont2;
         src: url(RubikFont.ttf);
       }
 
+      img{
+        width: 100%;
+      
+      }
   
       @media screen and (min-width:1250px){
         .main{
           padding-right:20%;
         }
+  
       }
       @media screen and (min-width:551px){
-        .container{
-      
-          width: 100%;
-        }
-
-        .modal-container{
-        display: none;}
+        
         button{
+          font-size: 1.2em;
+          border-radius: 6px;
+          background-color:rgb(255, 255, 255);
+          border-color: rgb(168, 154, 145);
+          color:rgb(168, 154, 145);
+          text-decoration: none;
+          cursor: pointer;
+          font-family: newFont2;
+       padding: 0px 5px;
+        
+      }
+   .backButton{
+    margin-bottom:2em;
+    margin-left:30px;
+    position: relative;
+   }
+      .navigation a.active {
+        border-radius: 2px;
+        color: rgb(255, 255, 255);
+      }
+      .containerButton{
           display: none;
-        }
-        .a2{
-          font-size: 25px;
-          font-weight: 100;
-          font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
+      }
+      .modal-container{
+          display: none;
+      }
+  
+      .navigation{
+          text-align: center;
+          padding: 50px 0px ;
+          overflow:hidden;
+         
+          font-family:newFont2;
+      }
+      .navigation a{
+          color: rgb(153, 132, 118);
+          position: relative;
+         
+         line-height: 2em;
+          padding: 3px 15px;
+          text-decoration: none;
+      }
+      .navigation a:hover{
+        transition: ease-in 0.3s;
+        background-color: rgba(255, 255, 255, 0.411);
+        
+        color: rgb(170, 158, 148);
+        border-radius: 4px;
+    }
+    .a2{
+      padding-bottom:10px;
+      text-align: center;
+    font-size: 0.8em;
+    
+      color: rgb(114, 98, 78);
+        font-family: newFont2;
+         border-bottom: 3px rgb(187, 135, 135);
+         border-bottom-style: dashed;
+         margin:0  14% ;
+    }
+     
         .a3{
           font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
           font-weight:500;
@@ -45,11 +95,12 @@
           
         }
        h3{
-        
+        font-weight: 100;
+        color: rgb(114, 98, 78);
         font-weight: 100;
         font-family:sans-serif;
-        font-size: 17px;
-        width:15em;
+        font-size: 16px;
+        margin-right:0.7em;
        }
        h2{
 
@@ -61,40 +112,11 @@
         
       }
       
-      
-      .salad{
-        /* background-color: rgb(169, 134, 235); */
-        max-width: 100%;
-        height: auto;
-        width:220px;
-        margin-right:2em;
-     }
-      .navigation{
-        margin-top:  40px;
-        margin-left:  40px;
-        overflow:hidden;
-        word-spacing:1em;
-        font-family:newFont2;
-      
-    }
-    .navigation a{ position: relative;
-      top: 0.7em;
-      color: rgb(109, 187, 211);
-      position: relative;
-      vertical-align: top;
-      font-size: 0.95em;
-     line-height: 2em;
-     
-      text-decoration: none;
-  }
-  .navigation a:hover{
-      color: rgb(8, 135, 151);
-      
-  }
-    *{
+
+    /* *{
       margin: 0px;
       box-sizing: border-box;
-    }
+    } */
     .main{  
       display: flex;
       flex:1;
@@ -103,8 +125,8 @@
     font-size: 34px;
       display: flex;
       flex-direction: column;
-    height: 77vh;
-    margin-top:5.8em;
+    /* height: 77vh; */
+    /* margin-top:5.8em; */
   }
     .left{
       /* background:pink; */
@@ -142,31 +164,35 @@
     }
 
 
-    *, *:before, *:after {
-    
-      margin:0;
-      padding:0;
-      box-sizing: border-box;
+
+
   
-    }
-    h1{
-      font-size: 50px;
-      text-align: center;
-    
-      padding: 40px 60px;
-  font-family: newFont2;
-    }
- 
-    img{
-      width: 100%;
-    
-    }
   }
 
 
 
 
       @media only screen and (max-width: 550px){
+        .navigation{
+          display: none;
+        }
+        footer{
+          display: none;
+        }
+        .content{
+          display: none;
+        }
+        
+        .a2{
+          
+          text-align: center;
+        font-size: 0.9em;
+        
+          color: rgb(114, 98, 78);
+            font-family: newFont2;
+          
+        }
+      
         .left{
           /* background:pink; */
           padding: 0 2em 0 0;
@@ -182,27 +208,49 @@
            margin-top:0.2em; 
            padding-right:20px;
         }
+        
         .main{
           display: flex;
           flex:1;
           flex-direction: column;
         }
+        .iframe-container{
+          position: relative;
+          width: 100%;
+          padding-bottom: 56.25%; 
+          height: 0;
+        }
+        .iframe-container iframe{
+          position: absolute;
+          top:0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
         .layout{
-          margin-top:0em;}
-        footer{
-          display: none;
-        }
-        .content{
-          display: none;
-        }
+          font-size: 34px;
+          display: flex;
+          flex-direction: column;
+          }
+     
       
       h3{          font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 100;
         font-size: 15px;
+        padding-bottom:10px;
+        border-bottom: 3px rgb(187, 135, 135);
+             border-bottom-style: dashed;
+             margin:5% 14% ;
       }
-      .a2{          font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        /* font-weight: 100; */
-        font-size: 25px;
+     
+      h2{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: 100;
+        padding-top: 8em;
+        color: rgb(114, 115, 116);
+        
       }
       .a3{          font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight:500;
@@ -216,26 +264,33 @@
         margin: 0.9em;
         /* background-color: rgb(102, 102, 248); */
     }
-        button{
-          position: relative;
-          float: right;
-          margin:0.4em;
-          padding-top: 0.24em;
-          font-size: 1.9em;
-          border-radius: 4px;
-          background-color:rgb(255, 255, 255);
-          border-color: rgb(168, 154, 145);
-          color:rgb(168, 154, 145);
-          text-decoration: none;
-          cursor: pointer;
-          font-family: newFont2;
-        
-      }
-      .navigation{
-        display: none;
-      }
+    .containerButton{
+      padding-bottom: 20%;
+      margin: 0.9em;
+      background-color: rgba(203, 203, 204, 0);
+    }
+    button{
+      position: relative;
+      float: right;
+      margin-top:0.4em;
+      padding-top: 0.24em;
+      font-size: 1.6em;
+      border-radius: 6px;
+      background-color:rgb(255, 255, 255);
+      border-color: rgb(168, 154, 145);
+      color:rgb(168, 154, 145);
+      text-decoration: none;
+      cursor: pointer;
+      font-family: newFont2;
+     
+  }
+     .backButton{
+      padding: 0px 5px;
+      float: left;
+      font-size: 0.7em;
+     }
       .modal a.active {
-       
+    
         color: rgb(126, 118, 113);
       }
     
@@ -252,19 +307,23 @@
         
       }
       .modal{
-    
-        background-color: rgba(255, 255, 255, 0.815);
+      
+        background-color: rgb(253, 253, 252);
+       
+        padding-right:1.4em;
+    padding-top:1.7em;
         height: 100%;
        width: 100%;
         text-align: center;
-        padding:1em;
+    
       
       
       }
-      a{
+    
+      .modal a{
         line-height: 2.6em;
        width:100%;
-        color:rgb(31, 28, 26);
+        color:rgb(168, 154, 145);
         font-size: 1.7em;
         font-family: newFont2;
         position: relative;
@@ -274,8 +333,6 @@
         text-align: center;
       }
       .modal-container{
-        /* background-color: #ce4a4a; */
-        
         position: relative;
         overflow: auto;
      
@@ -297,111 +354,13 @@
       height: 100vh;
       width: 100vw;
       }
-    
+
       .modal-container.show{
         opacity:1;
         pointer-events: auto;
         
       }
 
-
-    
-      
-      h2{
-
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 0.9em;
-        font-weight: 100;
-        padding-top: 8em;
-        color: rgb(114, 115, 116);
-        
-      }
-      
-      
-      .salad{
-        /* background-color: rgb(169, 134, 235); */
-        max-width: 100%;
-        height: auto;
-        width:220px;
-        margin-right:2em;
-     }
-      .navigation{
-        margin: 40px;
-        overflow:hidden;
-        word-spacing:1.7em;
-        font-family:newFont2;
-      
-    }
-    .navigation a{ position: relative;
-      top: 0.7em;
-      color: rgb(109, 187, 211);
-      position: relative;
-      vertical-align: top;
-      font-size: 0.95em;
-     line-height: 2em;
-      text-decoration: none;
-  }
-  .navigation a:hover{
-      color: rgb(8, 135, 151);
-      
-  }
-    *{
-      margin: 0px;
-      box-sizing: border-box;
-    }
-   .layout{
-     
-      /* font-family: newFont2; */
-      /* text-align: center; */
-      
-      font-size: 34px;
-      display: flex;
-      flex-direction: column;
-    }
-  
-   
-  
-    .iframe-container{
-      position: relative;
-      width: 100%;
-      padding-bottom: 56.25%; 
-      height: 0;
-    }
-    .iframe-container iframe{
-      position: absolute;
-      top:0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-   
-  
-  
-    footer{
-    
-      /* background: rgba(255, 192, 203, 0.13); */
-      padding: 1em 0 1em 0;
-    }
- 
-
-    *, *:before, *:after {
-    
-      margin:0;
-      padding:0;
-      box-sizing: border-box;
-    }
-    h1{
-      font-size: 50px;
-      text-align: center;
-    
-      padding: 40px 60px;
-  font-family: newFont2;
-    }
- 
-    img{
-      width: 100%;
-    
-    }
   
   } 
   
