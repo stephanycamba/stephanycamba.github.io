@@ -262,7 +262,7 @@ html, body{
       .content{
         /* background-color: rgb(189, 238, 12); */
         position: relative;
-       border-radius: 3px;
+       border-radius: 5px;
         max-width:24%;
         height: auto;
     
