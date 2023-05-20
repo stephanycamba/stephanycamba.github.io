@@ -20,7 +20,7 @@ p{font-size: 0.5em;
   cursor: pointer;
 }
 /* Next & previous buttons */
-.prev,
+.prev,.prev2, .next2,
 .next {
   cursor: pointer;
   position: absolute;
@@ -37,13 +37,13 @@ p{font-size: 0.5em;
   -webkit-user-select: none;
 }
 /* Position the "next button" to the right */
-.next {
+.next, .next2 {
   right: 0;
  
 }
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+.prev:hover,.prev2:hover,
+.next:hover, .next2:hover {
   background-color: rgba(0, 0, 0, 0.438);
 }
 /* Number text (1/3 etc) */
