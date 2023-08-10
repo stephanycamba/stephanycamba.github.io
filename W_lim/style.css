@@ -111,7 +111,7 @@ p{font-size: 0.5em;
 
     @media screen and (min-width:1250px){
       .main{
-        padding-right:20%;
+        padding-right:1%;
       }
       h1{
         font-family: newFont2;
@@ -157,8 +157,8 @@ p{font-size: 0.5em;
           }
         .a2{
           
-          text-align: center;
-        font-size: 0.9em;
+          /* text-align: center; */
+          font-size: 0.9em;
         
           color: rgb(114, 98, 78);
             font-family: newFont2;
@@ -348,11 +348,13 @@ position: relative;
 }
 
 .navigation{
-    text-align: center;
-    padding: 50px 0px ;
-    overflow:hidden;
-   
-    font-family:newFont2;
+  /* background-color: pink; */
+  text-align: center;
+  padding: 20px 0px ;
+  padding-bottom:0px;
+  overflow:hidden;
+ 
+  font-family:newFont2;
 }
 .navigation a{
     color: rgb(153, 132, 118);
@@ -370,15 +372,15 @@ position: relative;
   border-radius: 4px;
 }
 .a2{
-padding-bottom:10px;
-text-align: center;
+/* padding-bottom:10px; */
+/* text-align: center; */
 font-size: 0.8em;
 
 color: rgb(114, 98, 78);
   font-family: newFont2;
    border-bottom: 3px rgb(187, 135, 135);
    border-bottom-style: dashed;
-   margin:0  14% ;
+   /* margin:0  14% ; */
 }
 
   .a3{
@@ -424,9 +426,10 @@ flex-direction: column;
 .left{
 /* background:pink; */
 
-flex: 1 1 100px;
+flex: 1 1 1px;
 color: rgb(54, 46, 46);
 margin-left: 1em;
+margin-right: 1em;
 
 }
 .iframe-container{
