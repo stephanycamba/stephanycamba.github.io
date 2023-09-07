@@ -1,21 +1,30 @@
 
 var modal = document.getElementById("myModal");
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onmousedown = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 }
-Touch.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-TouchEvent.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+
+
+
+
+
+
+
+
+
+// Touch.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// }
+// TouchEvent.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// }
 
 const open= document.getElementById('open');
 const modal_container= document.getElementById('modal_container');
