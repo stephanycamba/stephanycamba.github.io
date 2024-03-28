@@ -113,13 +113,13 @@ p{font-size: 0.5em;
     }
     img{
       width: 100%;
-    
+    border-radius: 11px;
     }
   
 
     @media screen and (min-width:1250px){
       .main{
-        padding-right:1%;
+        padding-right:10%;
       }
  
   
