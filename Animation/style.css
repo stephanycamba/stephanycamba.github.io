@@ -18,7 +18,7 @@ background-color: rgb(218, 214, 211);
     padding-left: 20%;
     padding-right: 20%;
      flex: 4 5 150px;
-     margin-top:0.6em; 
+     
   }
   .layout{
     font-size: 34px;
@@ -261,7 +261,7 @@ padding-top:1.7em;
 
     .navigation{
         text-align: center;
-        padding: 50px 0px ;
+        padding: 20px 0px ;
         overflow:hidden;
        
         font-family:newFont2;

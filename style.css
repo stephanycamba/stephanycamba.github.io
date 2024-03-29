@@ -199,7 +199,7 @@ padding-top:1.7em;
     }
     .navigation{
         text-align: center;
-        padding: 50px 0px ;
+        padding: 20px 0px ;
         overflow:hidden;
        
         font-family:newFont2;
@@ -306,7 +306,7 @@ padding-top:1.7em;
     
 }
     .container{
-        top:-10px;
+        top:40px;
  height:700px;
         overflow: hidden;
         position: relative;
