@@ -104,11 +104,12 @@ top: -70px;
     }
   
 
+
+
+
+
     @media screen and (min-width:1250px){
 
-      .w_imgs{
-border-radius: 11px;
-      }
       .main{
         padding-right:10%;
       }
