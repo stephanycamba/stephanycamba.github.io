@@ -16,7 +16,7 @@ html, body{
   
       @media screen and (min-width:1250px){
         .main{
-          padding-right:20%;
+          padding-right:10%;
         }
   
       }
@@ -54,7 +54,7 @@ html, body{
   
       .navigation{
           text-align: center;
-          padding: 50px 0px ;
+          padding: 20px 0px ;
           overflow:hidden;
          
           font-family:newFont2;
@@ -173,8 +173,9 @@ html, body{
 
   
     img{
+      padding-top: 20px;
       width: 100%;
-    
+      border-radius: 6px;
     }
   }
 
