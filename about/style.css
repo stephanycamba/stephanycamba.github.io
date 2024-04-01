@@ -121,6 +121,7 @@ max-width: 300px;
 }
 
 p{
+  line-height: 1.5em;
   padding-bottom:120px;
 }
 
@@ -204,6 +205,7 @@ max-width: 100%;
 padding-left: 20px;
 }
 p{
+line-height: 1.6em;
   padding-bottom:120px;
 }
 }
