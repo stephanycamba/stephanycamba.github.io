@@ -2,10 +2,11 @@ html, body{
   background-color: rgb(218, 214, 211);
   
   }
-.copyright{
-    position: fixed;
+  .copyright{
+    position: relative;
     left:1em;
-    bottom:0.5em;
+    bottom:-2em;
+    margin-bottom: 90px;
     }
 
     @font-face {

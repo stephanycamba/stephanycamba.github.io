@@ -4,11 +4,12 @@ html, body{
   }
 
 
-.copyright{
-  position: fixed;
-  left:1em;
-  bottom:0.5em;
-  }
+  .copyright{
+    position: relative;
+    left:1em;
+    bottom:-2em;
+    margin-bottom: 90px;
+    }
 
   @font-face {
       font-family: newFont2;

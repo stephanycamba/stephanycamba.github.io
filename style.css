@@ -3,6 +3,8 @@ html, body{
  
     background-color: rgb(218, 214, 211);
 }
+
+
 @media screen and (max-width: 480px){
 
 .container{
@@ -34,7 +36,7 @@ padding:0 0.4em;
 font-size: 1em;
 }
 .links{ 
-  float: left;
+  float: right;
   display: grid;
 grid-template-columns: 0.5fr 0.5fr 0.5fr;
 }
@@ -53,7 +55,7 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
     font-weight: 100;
-    padding-top: 2em;
+    padding-top: 4em;
     color: rgb(114, 115, 116);
 }
 span{
@@ -194,9 +196,10 @@ padding-top:1.7em;
     padding:0em 0.4em;
     font-size: 1.8em;
  
-    bottom:30px;
-    left:94%;
+    bottom:20%;
+    left:87%;
     }
+    
     .navigation{
         text-align: center;
         padding: 20px 0px ;
@@ -296,7 +299,14 @@ padding-top:1.7em;
     margin-right:17%;
     
 }
+.linksIcons{
+  position: relative;
+  
 
+
+bottom:20%;
+left:77%;
+}
 }
 @media screen and (min-width:1920px){
   html, body{

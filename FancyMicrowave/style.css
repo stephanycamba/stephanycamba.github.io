@@ -87,9 +87,10 @@ p{font-size: 0.5em;
 
 
 .copyright{
-  position: fixed;
+  position: relative;
   left:1em;
-  bottom:0.5em;
+  bottom:-2em;
+  margin-bottom: 90px;
   }
 
   @font-face {
