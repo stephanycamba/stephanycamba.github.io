@@ -355,7 +355,8 @@ position: relative;
 }
 .navigation a.active {
   border-radius: 2px;
-  color: rgb(255, 255, 255);
+  color: rgb(153, 132, 118);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .containerButton{
     display: none;
