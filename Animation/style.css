@@ -55,6 +55,8 @@ background-color: rgb(218, 214, 211);
   }
 
 
+
+
 @media screen and (max-width: 550px){
   main{
 
@@ -294,14 +296,15 @@ padding-top:1.7em;
     }
     
     h1{
-      font-size: 50px;
-      text-align: center;
-     
-      padding: 40px 40px;
+      font-weight:700;
+      font-size: 23px;
+      color: rgb(75, 46, 10);
+      margin-top: 20px;
   font-family: newFont2;
     }
     .container{
-      /* background-color: rgb(8, 135, 151); */
+
+    
       width: 100%;
 margin-top:1em;
 
@@ -310,7 +313,7 @@ margin-top:1em;
     .content{
       /* background-color: rgb(189, 238, 12); */
       position: relative;
-     border-radius: 6px;
+     border-radius: 2px;
       max-width:16%;
       height: auto;
   
@@ -326,7 +329,7 @@ margin-top:1em;
   
       max-width: 100%;
       height: auto;
-    border-radius: 6px;
+    border-radius: 3px;
       
     }
     .content .text-overlay{

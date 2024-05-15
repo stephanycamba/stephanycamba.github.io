@@ -73,13 +73,13 @@ html, body{
     margin: 0.9em;
     background-color: rgba(203, 203, 204, 0);
   }
-  .container{
+  .container{   
     padding-bottom:8em;
     width: 100%;
     
   }
   .content{
-    /* background-color: rgb(68, 212, 231); */
+
     position: relative;
     float: left;
     overflow: hidden;
@@ -384,6 +384,7 @@ html, body{
          border-bottom-style: dashed;
          margin:0  14% ;
     }
+    
   }
 
 
