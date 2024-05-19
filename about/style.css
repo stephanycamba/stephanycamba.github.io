@@ -1,13 +1,44 @@
 html, body{
     background-color: rgb(218, 214, 211);
 }
+@font-face {
+  font-family: newFont2;
+  src: url(RubikFont.ttf);
+}
+p{  
+        color: rgb(121, 102, 77);
+              font-family: newFont2;
+              /* padding-bottom:120px; */
+}
 
-
-@media screen and (max-width: 480px){
+@media screen and (max-width: 760px){
   .navigation{
     display: none;
   }
- 
+
+  
+  .linksIcons{
+    position: relative;
+    color: rgb(73, 40, 21);
+    font-size: 1.4em;
+    margin-right: 20px;
+    }
+  
+    .links{ 
+      /* background-color: rgba(75, 194, 75, 0.685); */
+      
+      flex-wrap: wrap;
+      display: grid;
+    grid-template-columns: 0fr 0fr; 
+    }
+    .copyright{
+      position: relative;
+      left: 0;
+      
+      bottom:-8em;
+      margin-bottom: 90px;
+      }
+
   .modal-container{
     position: relative;
     overflow: auto;
@@ -122,14 +153,28 @@ max-width: 300px;
 
 p{
   line-height: 1.5em;
-  padding-bottom:120px;
+  padding-bottom:50px;
 }
 
 }
 
 
-@media screen and (min-width: 481px){
-
+@media screen and (min-width: 761px){
+  .linksIcons{
+    position: relative;
+    color: rgb(73, 40, 21);
+    font-size: 2em;
+    margin-right: 20px;
+    top:-20px;
+    }
+  
+    .links{ 
+      /* background-color: rgba(75, 194, 75, 0.685); */
+      
+      flex-wrap: wrap;
+      display: grid;
+    grid-template-columns: 0fr 0fr; 
+    }
 
   .navigation a.active {
     border-radius: 2px;
@@ -218,15 +263,7 @@ line-height: 1.6em;
 
 
 
-@font-face {
-  font-family: newFont2;
-  src: url(RubikFont.ttf);
-}
-p{  
-        color: rgb(121, 102, 77);
-              font-family: newFont2;
-              /* padding-bottom:120px; */
-}
+
 
 
 
