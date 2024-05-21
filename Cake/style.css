@@ -52,6 +52,19 @@ color: rgb(92, 76, 52);
 
 
 @media only screen and (max-width: 760px){
+  .w_imgs{
+    margin-top:80px;
+    }
+  .left2_mobile{ 
+    margin-right:5px;
+    float: left;
+    width: 49%;
+  }
+  .right_mobile{
+    float: right;
+    width: 49%;
+  }
+  
       .numertext {
         display: none;
         }
@@ -248,8 +261,18 @@ color: rgb(92, 76, 52);
  
 }    
 @media only screen and (min-width: 761px){
-
-
+  .w_imgs{
+    margin-top:80px;
+    }
+  .left2_mobile{ 
+    margin-right:5px;
+    float: left;
+    width: 49%;
+  }
+  .right_mobile{
+    float: right;
+    width: 49%;
+  }
 
 button{
 font-size: 1.2em;
@@ -491,6 +514,21 @@ border-radius: 4px;
 }
 @media only screen and (min-width: 1650px){
 
+.w_imgs{
+margin-top:80px;
+}
+     .left2{ 
+       margin-right:5px;
+       float: left;
+       width: 49%;
+     }
+     .right{
+       float: right;
+       width: 49%;
+     }
+h1{
+  margin-top:50px;
+}
 
 .navigation{
   padding: 20px 0px ;
