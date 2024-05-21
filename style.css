@@ -362,13 +362,7 @@ left:0px;
  transform: scale(0);
  transition: .25s ease;
 }
-.webgame{
-  font-family: newFont;
-  text-align: center;
-  font-size: 25px;
-  color: #000;
-  font-weight: bold;
-}
+
 .te{
   padding:0 10px  ;
   text-align: center;
@@ -401,10 +395,7 @@ left:0px;
 
 
 
-@font-face {
-  font-family: newFont;
-  src: url(PenelopeAnne-A65m.ttf);
-}
+
 @font-face {
   font-family: newFont2;
   src: url(RubikFont.ttf);
