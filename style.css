@@ -46,9 +46,9 @@ h1{
   position: relative;
  
  color: rgb(143, 128, 117);
- letter-spacing: 0.1em;
   line-height: 1em;
-  font-family: newFont3;
+  font-family: newFont2;
+  font-weight: 400;
   font-size: 2.2em;
 }
 h2{
@@ -224,7 +224,7 @@ padding-top:1.7em;
     }
     .container{
         top:-10px;
- height: 500px;
+ height: 600px;
         overflow: hidden;
         position: relative;
         background-color: rgba(97, 97, 112, 0);
@@ -233,7 +233,7 @@ padding-top:1.7em;
         display: none;
     }
     .img2{
-    
+    border-radius: 6px;
         z-index: 0;
       position: absolute;
       
@@ -272,7 +272,7 @@ padding-top:1.7em;
         font-size: 3.5em;
         font-weight: bold;
         line-height: 1.1em;
-        letter-spacing: 0.08em;
+   
     
     position: absolute;
     
