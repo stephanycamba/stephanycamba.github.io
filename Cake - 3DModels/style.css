@@ -411,13 +411,11 @@ position: relative;
 }
 
 .navigation{
-  /* background-color: pink; */
-    text-align: center;
-    padding: 20px 0px ;
-    padding-bottom:0px;
-    overflow:hidden;
-   
-    font-family:newFont2;
+  text-align: center;
+  padding: 20px 0px ;
+  overflow:hidden;
+ 
+  font-family:newFont2;
 }
 .navigation a{
     color: rgb(153, 132, 118);
