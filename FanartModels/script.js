@@ -13,42 +13,42 @@ close.addEventListener('click', () =>{
 
 
 
-let slideIndex3 = 1;
-showSlides3(slideIndex3);
+let slideIndex = 1;
+showSlides(slideIndex);
 
 
 // Next/previous controls
 
 
-function plusSlides3(n) {
-  showSlides3(slideIndex3 += n);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
 
 // Thumbnail image controls
 
 
-function currentSlide3(n) {
-  showSlides3(slideIndex3 = n);
+function currentSlide(n) {
+  showSlides(slideIndex = n);
 }
 
 
-function showSlides3(n) {
+function showSlides(n) {
   let i;
-  let slides = document.getElementsByClassName("theSlides3");
-  let dots = document.getElementsByClassName("demo3");
-  let captionText = document.getElementById("caption3");
-  if (n > slides.length) {slideIndex3 = 1}
-  if (n < 1) {slideIndex3 = slides.length}
+  let slides = document.getElementsByClassName("theSlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex3-1].style.display = "block";
-  dots[slideIndex3-1].className += " active";
-  captionText.innerHTML = dots[slideIndex3-1].alt;
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
 
