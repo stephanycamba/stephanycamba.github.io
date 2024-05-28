@@ -216,7 +216,8 @@ html, body{
       }
       .navigation a.active {
         border-radius: 2px;
-        color: rgb(255, 255, 255);
+color: rgb(153, 132, 118);
+background-color: rgba(255, 255, 255, 0.5);
       }
       button{
           display: none;
@@ -289,10 +290,10 @@ html, body{
         /* background-color: rgb(189, 238, 12); */
         position: relative;
       
-        max-width:22%;
+        max-width:24%;
         height: auto;
     
-        margin: 1.5px 2.5px;
+        margin: 1.5px 8.5px;
         float: left;
         overflow: hidden;
         cursor: pointer;
@@ -301,7 +302,7 @@ html, body{
         
       }
       img{
-        border-radius: 7px;
+        border-radius: 5px;
         max-width: 100%;
         height: auto;
       
@@ -360,8 +361,8 @@ html, body{
   @media screen and (min-width:1250px){
     html, body{
      
-      margin-left:9%;
-      margin-right:9%;
+      margin-left:12%;
+      margin-right:12%;
       
   }
   .copyright{
