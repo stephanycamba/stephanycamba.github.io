@@ -5,6 +5,12 @@ html, body{
   font-family: newFont2;
   src: url(RubikFont.ttf);
 }
+.copyright{
+position: absolute;
+left:0;
+bottom:0;
+}
+
 p{  
         color: rgb(121, 102, 77);
               font-family: newFont2;
@@ -31,13 +37,7 @@ p{
       display: grid;
     grid-template-columns: 0fr 0fr; 
     }
-    .copyright{
-      position: relative;
-      left: 0;
-      
-      bottom:-8em;
-      margin-bottom: 90px;
-      }
+
 
   .modal-container{
     position: relative;
@@ -218,11 +218,7 @@ p{
       position: relative;
       background-color: rgba(97, 97, 112, 0);
   }
-.copyright{
-position: absolute;
-left:0;
-bottom:0;
-}
+
 h2{
 
     font-family: Arial, Helvetica, sans-serif;

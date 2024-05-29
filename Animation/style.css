@@ -3,12 +3,10 @@ background-color: rgb(218, 214, 211);
 
 }
 .copyright{
-  display: block;
-  position: fixed;
+  position: relative;
   left:1em;
-  bottom:0.5em;
-  margin-top:2em;
-
+  bottom:-2em;
+  margin-bottom: 90px;
   }
 
   @font-face {
