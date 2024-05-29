@@ -6,7 +6,7 @@ html, body{
     src: url(RubikFont.ttf);
   }
 
-  @media screen and (max-width: 550px){
+  @media screen and (max-width: 760px){
     h1{
         
       font-size: 30px;
@@ -186,7 +186,7 @@ html, body{
      }
   }
   
-  @media screen and (min-width:551px){
+  @media screen and (min-width:761px){
     h3{
       padding-bottom:10px;
       text-align: center;
