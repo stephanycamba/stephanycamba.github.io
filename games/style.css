@@ -1,16 +1,12 @@
 html, body{
   background-color: rgb(218, 214, 211);
+  margin-bottom:3em;
   }
   @font-face {
     font-family: newFont2;
     src: url(RubikFont.ttf);
   }
-  .copyright{
-    position: relative;
-    left:1em;
-    bottom:-2em;
-    margin-bottom: 90px;
-    }
+
   @media screen and (max-width: 760px){
     h1{
         
