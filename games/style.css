@@ -5,7 +5,14 @@ html, body{
     font-family: newFont2;
     src: url(RubikFont.ttf);
   }
-
+  .copyright{
+    display: block;
+    position: fixed;
+    left:1em;
+    bottom:0.5em;
+    margin-top:2em;
+  
+    }
   @media screen and (max-width: 760px){
     h1{
         
@@ -33,9 +40,7 @@ html, body{
          border-bottom-style: dashed;
          margin:5% 14% ;
     }
-    .copyright{
-      display: none;
-        }
+
   button{
       position: relative;
       float: right;
@@ -205,9 +210,7 @@ html, body{
       color: rgb(170, 158, 148);
       border-radius: 4px;
   }
-  .copyright{
-    display: none;
-      }
+ 
   
       .navigation a.active {
         border-radius: 2px;
@@ -360,20 +363,8 @@ background-color: rgba(255, 255, 255, 0.5);
   }
   
   @media screen and (min-width:1250px){
-    /* html, body{
-     
-      margin-left:11%;
-      margin-right:11%;
-      
-  } */
-  .copyright{
-    display: block;
-    position: fixed;
-    left:1em;
-    bottom:0.5em;
-    margin-top:2em;
-  
-    }
+   
+ 
   
     h3{
       padding-bottom:10px;

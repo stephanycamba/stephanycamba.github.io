@@ -2,7 +2,14 @@ html, body{
 background-color: rgb(218, 214, 211);
 
 }
+.copyright{
+  display: block;
+  position: fixed;
+  left:1em;
+  bottom:0.5em;
+  margin-top:2em;
 
+  }
 
   @font-face {
     font-family: newFont2;
@@ -75,9 +82,7 @@ background-color: rgb(218, 214, 211);
        border-bottom-style: dashed;
        margin:5% 14% ;
   }
-  .copyright{
-    display: none;
-      }
+
 button{
     position: relative;
     float: right;
@@ -247,9 +252,7 @@ padding-top:1.7em;
     color: rgb(170, 158, 148);
     border-radius: 4px;
 }
-.copyright{
-  display: none;
-    }
+
   html, body{
    
         margin-left:1%;
@@ -390,14 +393,7 @@ margin-top:1em;
     margin-right:9%;
     
 }
-.copyright{
-  display: block;
-  position: fixed;
-  left:1em;
-  bottom:0.5em;
-  margin-top:2em;
 
-  }
 
   h3{
     padding-bottom:10px;

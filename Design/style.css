@@ -6,7 +6,21 @@ html, body{
   font-family: newFont2;
   src: url(RubikFont.ttf);
 }
+.copyright{
+  position: relative;
+  left:1em;
+  bottom:-2em;
+  margin-bottom: 90px;
+  }
+  h2{
 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 100;
+    padding-top: 8em;
+    color: rgb(114, 115, 116);
+    
+  }
 h3{
 font-family: newFont2; 
  font-size: 2em;
