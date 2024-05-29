@@ -3,6 +3,13 @@ html, body{
   background-color: rgb(218, 214, 211);
   
   }
+  .backButton2{
+    margin-bottom:2em;
+    margin-top:3em;
+    position: relative;
+    text-align: center;
+    
+    }
 p{font-size: 0.5em;
 
   font-family:newFont2;
@@ -247,6 +254,7 @@ padding: 0px 5px;
 float: left;
 font-size: 0.7em;
 }
+
 .containerButton{
   display: none;
   }
