@@ -3,13 +3,7 @@ html, body{
   background-color: rgb(218, 214, 211);
   
   }
-  .backButton2{
-    margin-bottom:2em;
-    margin-top:3em;
-    position: relative;
-    text-align: center;
-    
-    }
+
 p{font-size: 0.5em;
 
   font-family:newFont2;
@@ -39,10 +33,31 @@ color: rgb(92, 76, 52);
       width: 100%;
     border-radius: 6px;
     }
-  
+
+  .form{
+    display: block;
+    text-align: center;
+  }
+  .TopPage{
+   
+    position: relative;
+    margin-top:40px;
+    font-size: 1em;
+    border-radius: 6px;
+    background-color:rgb(255, 255, 255);
+    border-color: rgb(168, 154, 145);
+    color:rgb(114, 80, 59);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: newFont2;
+    padding: 5px 5px;
+  }
 
 
 @media only screen and (max-width: 760px){
+  .TopPage{
+    font-size: 1.4em;
+  }
  
         .caption-container, .caption-container2 {
    display: none;
@@ -124,11 +139,11 @@ color: rgb(92, 76, 52);
           font-family: newFont2;
          
       }
-         .backButton{
+         /* .backButton{
           padding: 0px 5px;
           float: left;
           font-size: 0.7em;
-         }
+         } */
       
 
          .modal a.active {
@@ -230,7 +245,9 @@ color: rgb(92, 76, 52);
  
 }    
 @media only screen and (min-width: 761px){
-
+  .TopPage{
+    font-size: 1.4em;
+  }
 
 
 button{
@@ -246,14 +263,14 @@ padding: 5px 5px;
 
 }
 
-.backButton{
+/* .backButton{
 margin-bottom:2em;
 margin-left:30px;
 position: relative;
 padding: 0px 5px;
 float: left;
 font-size: 0.7em;
-}
+} */
 
 .containerButton{
   display: none;
