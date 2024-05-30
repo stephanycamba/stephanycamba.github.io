@@ -41,7 +41,7 @@ html, body{
 
   img{
     width: 100%;
-  border-radius: 6px;
+  border-radius: 3px;
   }
 .cursor {
   cursor: pointer;
@@ -92,6 +92,7 @@ html, body{
 /* Add a transparency effect for thumnbail images */
 .demo, .demo2{
   opacity: 0.6;
+  
 }
 
 .active,
