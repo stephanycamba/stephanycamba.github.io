@@ -23,6 +23,7 @@ html, body{
     font-weight:500;
     font-size: 17px;
   color: rgb(92, 76, 52); 
+  margin-bottom:20px;
   }
 .theSlides, .theSlides2, .theSlides3, .theSlides4{
   display: none;
