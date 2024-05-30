@@ -53,12 +53,12 @@ html, body{
   position: absolute;
   top:50%;
   width: auto;
-  margin:0 15px;
-  padding: 10px;
+  margin:0 5px;
+  padding: 7px;
 
   color: rgb(5, 0, 0);
   background-color: rgba(255, 255, 255, 0.418);
-  font-size: 24px;
+  font-size: 14px;
   
   user-select: none;
   -webkit-user-select: none;
@@ -288,7 +288,7 @@ html, body{
         .prev,
         .next {
        
-          top:35%;
+          top:40%;
       
         }
  
@@ -318,6 +318,12 @@ html, body{
 
 
 @media only screen and (min-width: 761px){
+  .prev,
+  .next {
+    margin:0 10px;
+    top:40%;
+font-size: 20px;
+  }
   button{
     font-size: 1.7em;
     border-radius: 6px;
