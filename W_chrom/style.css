@@ -39,7 +39,50 @@ html, body{
     font-family: newFont2;
     src: url(RubikFont.ttf);
   }
+  .form{
+    display: block;
+    text-align: center;
+  }
+  .backButton:hover, .TopPage:hover{
 
+    transition: ease-in 0.2s;
+background-color: rgba(255, 255, 255, 0.479);
+
+
+  }
+  .backButton a{
+    position: relative;
+    text-decoration: none;
+    color:rgb(114, 80, 59);
+    font-size: 1.5em;
+   
+  }
+  .backButton{
+    margin-bottom:2em;
+    margin-left:30px;
+    background-color:rgb(255, 255, 255);
+    padding: 0px 5px;
+    float: left; 
+    font-family: newFont2;    
+cursor: pointer;
+border-radius: 6px;
+border-color: rgb(168, 154, 145);
+border-style: solid;
+    }
+  .TopPage{
+   
+    position: relative;
+    margin-top:40px;
+    font-size: 1em;
+    border-radius: 6px;
+    background-color:rgb(255, 255, 255);
+    border-color: rgb(168, 154, 145);
+    color:rgb(114, 80, 59);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: newFont2;
+    padding: 5px 5px;
+  }
   img{
     width: 100%;
   border-radius: 3px;
@@ -130,7 +173,15 @@ html, body{
 
 
     @media only screen and (max-width: 760px){
-   
+      .TopPage{
+        font-size: 1.4em;
+      }
+      .backButton{
+        margin-left:0px;
+        margin-top:10px;
+        float: left;
+        font-size: 0.9em;
+       }
 
 
 
@@ -218,11 +269,7 @@ html, body{
           font-family: newFont2;
          
       }
-         .backButton{
-          padding: 0px 5px;
-          float: left;
-          font-size: 0.7em;
-         }
+     
          .modal a.active {
     
           color: rgb(126, 118, 113);
@@ -327,6 +374,9 @@ html, body{
 
 
 @media only screen and (min-width: 761px){
+  .TopPage{
+    font-size: 1.4em;
+  }
   .prev,
   .next {
     margin:0 10px;
@@ -342,6 +392,7 @@ font-size: 20px;
    position: relative;
   left:0px;
   font-family: newFont2;
+  text-align: center;
   }
 
 
@@ -369,14 +420,7 @@ font-size: 20px;
     
     }
     
-    .backButton{
-    margin-bottom:2em;
-    margin-left:30px;
-    position: relative;
-    padding: 0px 5px;
-    float: left;
-    font-size: 0.7em;
-    }
+
     .containerButton{
       display: none;
       }
