@@ -55,14 +55,7 @@ color: rgb(92, 76, 52);
 
 
 @media only screen and (max-width: 760px){
-  .backButton{
-    margin-bottom:2em;
-    margin-left:30px;
-    position: relative;
-    padding: 0px 5px;
-    float: left;
-    font-size: 0.7em;
-    }
+ 
   .TopPage{
     font-size: 1.4em;
   }
@@ -147,11 +140,11 @@ color: rgb(92, 76, 52);
           font-family: newFont2;
          
       }
-         .backButton{
-          padding: 0px 5px;
-          float: left;
-          font-size: 0.7em;
-         }
+      .backButton{
+        padding: 0px 5px;
+        float: left;
+        font-size: 0.7em;
+       }
       
 
          .modal a.active {
@@ -256,10 +249,15 @@ color: rgb(92, 76, 52);
   .TopPage{
     font-size: 1.4em;
   }
-.backButton{
-  display: none;
-}
 
+  .backButton{
+    margin-bottom:2em;
+    margin-left:30px;
+    position: relative;
+    padding: 0px 5px;
+    float: left;
+    font-size: 0.7em;
+    }
 button{
 font-size: 1.7em;
 border-radius: 6px;
