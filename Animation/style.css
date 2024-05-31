@@ -248,12 +248,12 @@ padding-top:1.7em;
     border-radius: 4px;
 }
 
-  html, body{
+  /* html, body{
    
         margin-left:1%;
         margin-right:1%;
         
-    }
+    } */
     .navigation a.active {
       border-radius: 2px;
       color: rgb(153, 132, 118);
