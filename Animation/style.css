@@ -23,18 +23,17 @@ background-color: rgb(218, 214, 211);
     font-family: newFont2;
     src: url(RubikFont.ttf);
   }
-
+  main{
+    /* background: rgba(143, 94, 102, 0.479); */
+   
+     flex: 4 5 150px;
+     
+  }
   .main{  
     display: flex;
     flex:1;
   }
-  main{
-    /* background: rgba(143, 94, 102, 0.479); */
-    padding-left: 8%;
-    padding-right: 8%;
-     flex: 4 5 150px;
-     
-  }
+ 
   .layout{
     font-size: 34px;
       display: flex;
@@ -72,7 +71,7 @@ background-color: rgb(218, 214, 211);
 
 
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 760px){
   main{
 
     padding-left: 1%;
@@ -235,7 +234,13 @@ padding-top:1.7em;
    }
 }
 
-@media screen and (min-width:551px){
+@media screen and (min-width:761px){
+  html, body{
+    margin-bottom:90px;
+     margin-left:2%;
+     margin-right:2%;
+     
+ }
   .copyright{
     display: none;
   }
@@ -258,12 +263,7 @@ padding-top:1.7em;
     border-radius: 4px;
 }
 
-  /* html, body{
-   
-        margin-left:1%;
-        margin-right:1%;
-        
-    } */
+
     .navigation a.active {
       border-radius: 2px;
       color: rgb(153, 132, 118);
@@ -378,8 +378,8 @@ margin-top:1em;
     }
     html, body{
       margin-bottom:90px;
-       margin-left:9%;
-       margin-right:9%;
+       margin-left:5%;
+       margin-right:5%;
        
    }
 
@@ -387,14 +387,14 @@ margin-top:1em;
 
 }
 
-@media screen and (min-width:1250px){
+@media screen and (min-width:1650px){
 .copyright{
   display: none;
 }
   html, body{
    margin-bottom:90px;
-    margin-left:12%;
-    margin-right:12%;
+    margin-left:14%;
+    margin-right:14%;
     
 }
 
