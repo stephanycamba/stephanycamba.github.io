@@ -1,15 +1,17 @@
 html, body{
     background-color: rgb(218, 214, 211);
+   
 }
 @font-face {
   font-family: newFont2;
   src: url(RubikFont.ttf);
 }
 .copyright{
-position: absolute;
-left:0;
-bottom:0;
-}
+  position: relative;
+  left:1em;
+  bottom:-2em;
+  margin-bottom: 90px;
+  }
 
 p{  
         color: rgb(121, 102, 77);

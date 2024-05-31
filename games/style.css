@@ -1,6 +1,6 @@
 html, body{
   background-color: rgb(218, 214, 211);
-  margin-bottom:120px;
+ margin-bottom:110px;
   }
   @font-face {
     font-family: newFont2;
@@ -9,10 +9,10 @@ html, body{
 
   @media screen and (max-width: 760px){
     h1{
-        
+        top:-20px;
       font-size: 30px;
       position:relative;
-  
+  text-align: center;
       float: left;
     
      color: rgb(105, 77, 64);
@@ -67,9 +67,9 @@ html, body{
     background-color: rgba(203, 203, 204, 0);
   }
   .container{   
-    padding-bottom:8em;
+    /* padding-bottom:8em; */
     width: 100%;
-    
+   
   }
   .content{
 
