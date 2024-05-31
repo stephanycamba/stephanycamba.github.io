@@ -12,6 +12,12 @@ margin-bottom:3em;
     color: rgb(114, 115, 116);
     
   }
+  .copyright{
+    position: relative;
+    left:1em;
+    bottom:-6em;
+    margin-bottom: 90px;
+    }
   @font-face {
     font-family: newFont2;
     src: url(RubikFont.ttf);
