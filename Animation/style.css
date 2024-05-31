@@ -1,22 +1,23 @@
 html, body{
 background-color: rgb(218, 214, 211);
-margin-bottom:3em;
+
 }
 
-  h2{
+  h2{margin-bottom: 80px;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
     font-weight: 100;
-    
+    bottom:-90px;
     color: rgb(114, 115, 116);
     
   }
   .copyright{
-    position: relative;
-    left:1em;
-    bottom:-6em;
-    margin-bottom: 90px;
+    background-color: rgba(167, 167, 18, 0.616);
+    position: absolute;
+    /* left:1em; */
+    bottom:0px;
+    
     }
   @font-face {
     font-family: newFont2;
