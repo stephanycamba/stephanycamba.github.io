@@ -4,19 +4,19 @@ background-color: rgb(218, 214, 211);
 }
 
   h2{margin-bottom: 80px;
-
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
     font-weight: 100;
-    bottom:-90px;
+    bottom:-30px;
     color: rgb(114, 115, 116);
     
   }
   .copyright{
-    background-color: rgba(167, 167, 18, 0.616);
-    position: absolute;
+    /* background-color: rgba(167, 167, 18, 0.616); */
+    position: relative;
     /* left:1em; */
-    bottom:0px;
+    bottom:-90px;
     
     }
   @font-face {
@@ -380,9 +380,11 @@ margin-top:1em;
 }
 
 @media screen and (min-width:1250px){
-
+.copyright{
+  display: none;
+}
   html, body{
-   
+   margin-bottom:90px;
     margin-left:9%;
     margin-right:9%;
     
