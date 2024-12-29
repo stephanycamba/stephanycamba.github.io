@@ -34,7 +34,7 @@ color: rgb(92, 76, 52);
     }
     img{
       width: 100%;
-    border-radius: 6px;
+    border-radius: 5px;
     }
     .form{
       display: block;
@@ -305,20 +305,23 @@ color: rgb(92, 76, 52);
   .TopPage{
     font-size: 1.4em;
   }
-  .w_imgs{
+  .w_imgs{ 
     margin-top:80px;
     }
   .left2_mobile{ 
+ 
     margin-right:5px;
     float: left;
     width: 49%;
   }
   .right_mobile{
+    
     float: right;
     width: 49%;
   }
 
   button{
+ 
     font-size: 1.7em;
     border-radius: 6px;
     background-color:rgb(255, 255, 255);
