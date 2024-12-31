@@ -14,8 +14,9 @@ html, body{
   }
 
 p{  
-        color: rgb(121, 102, 77);
+        color: rgb(94, 74, 48);
               font-family: newFont2;
+              font-weight: 400;
               /* padding-bottom:120px; */
 }
 
