@@ -234,8 +234,9 @@ h2{
 img{
 position: relative;
 padding-bottom:120px;
-max-width:400px;
-height: auto;
+width:400px;
+height: 100%;
+max-width:100% ;
 }
 .row {
 display: flex;
