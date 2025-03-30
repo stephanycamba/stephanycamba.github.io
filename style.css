@@ -26,7 +26,8 @@ button{
     text-decoration: none;
     cursor: pointer;
     font-family: newFont2;
-   
+   width: 1.6em;
+   height: 1.6em;
 }
 
 .linksIcons{
