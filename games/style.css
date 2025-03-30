@@ -6,16 +6,7 @@ html, body{
     font-family: newFont2;
     src: url(RubikFont.ttf);
   }
-  .h3{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight:500;
-    font-size: 1.3em;
-  color: rgb(92, 76, 52); 
-  
-  margin-top:3px;
 
-  text-align: center;
-  }
   @media screen and (max-width: 760px){
     h1{
         top:-20px;
@@ -32,7 +23,16 @@ html, body{
 
 
     }
-
+    .h3{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight:500;
+      font-size: 1.3em;
+    color: rgb(92, 76, 52); 
+    
+    margin-bottom:32px;
+  
+    text-align: center;
+    }
     h3{
       padding-bottom:10px;
       text-align: center;
@@ -190,6 +190,10 @@ html, body{
   }
   
   @media screen and (min-width:761px){
+    .h3{
+    display: none;
+    }
+    
     h3{
       padding-bottom:10px;
       text-align: center;
