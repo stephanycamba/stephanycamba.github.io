@@ -293,15 +293,7 @@ width:49%;
   
   @media screen and (min-width:761px){
     h3{
-      padding-bottom:10px;
-      text-align: center;
-    font-size: 1.3em;
-    
-      color: rgb(114, 98, 78);
-        font-family: newFont2;
-         border-bottom: 3px rgb(187, 135, 135);
-         border-bottom-style: dashed;
-         margin:5% 14% ;
+    display: none;
     }
     .navigation a:hover{
       transition: ease-in 0.3s;
